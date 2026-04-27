@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  margin-bottom: 0.9rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* HEADER con degradado azul como referencia */
+header {
+  background: linear-gradient(135deg, #0077cc 0%, #339ddf 60%, #66b8ed 100%);
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+}
+
+.header-icon {
+  font-size: 2.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.student-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #e0f0ff;
+  margin-top: 0.3rem;
+}
+
+.course {
+  font-size: 0.85rem;
+  color: #cce6ff;
+}
+
+/* PRESENTACION */
+.presentacion {
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+
+.presentacion img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.pie-imagen {
+  font-size: 0.78rem;
+  color: #666666;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+/* SECCIONES alternadas blanco / gris */
+section {
+  padding: 2.2rem 0;
+  background-color: #ffffff;
+}
+
+section.bg-gris {
+  background-color: #f5f5f5;
+}
+
+/* Línea azul debajo del título de sección */
+section .container > h2 {
+  border-left: 4px solid #0077cc;
+  padding-left: 0.75rem;
+  color: #0077cc;
+}
+
+/* LISTAS */
+ul, ol {
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+/* TABLAS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+}
+
+thead {
+  background-color: #0077cc;
+  color: #ffffff;
+}
+
+thead th {
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody td {
+  padding: 0.55rem 0.9rem;
+  vertical-align: top;
+}
+
+/* IMÁGENES en contenido */
+.img-wrapper {
+  margin: 1.4rem 0;
+}
+
+.img-wrapper img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  display: block;
+  border: 1px solid #dddddd;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(135deg, #0077cc 0%, #339ddf 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  font-size: 0.85rem;
+}
